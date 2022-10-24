@@ -1,15 +1,15 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  TITLE: process.env.NEXT_PUBLIC_TITLE || "Andy's Pro Blog", // 站点标题
+  TITLE: process.env.NEXT_PUBLIC_TITLE || "Anjhon's Blog", // 站点标题
   DESCRIPTION:
     process.env.NEXT_PUBLIC_DESCRIPTION ||
-    '歡迎來到 Andys.pro! 在這裡與 YouTube, 我分享 Apple iPhone, MacBook 產品心得, Javascript 開發,以及軟式網球的技巧!', // 站点描述
-  AUTHOR: 'Andy', // 作者
-  BIO: '喜歡 Apple 產品, Javascript 與軟式網球的工程師', // 作者简介
-  LINK: 'https://tw.andys.pro', // 网站地址
+    '欢迎来到我的博客!', // 站点描述
+  AUTHOR: 'Anjhon', // 作者
+  BIO: '数据炼丹学徒', // 作者简介
+  LINK: 'https://www.anjhon.top', // 网站地址
   AVATAR: '/avatar.png', // 个人头像 默认取public目录下的avatar.png
   KEYWORDS:
-    'YouTube, Notion, 部落格, Apple, 蘋果, iPhone, iPad, MacBook, Apple Watch, AirPods, Javascript, React, React Native, Soft Tennis, 軟式網球', // 网站关键词 英文逗号隔开
+    'Notion, Python, English', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID || 'f41085f6dab043539304f721d26ab432', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
