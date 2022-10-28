@@ -15,7 +15,7 @@ const BLOG = {
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
-  THEME: process.env.NEXT_PUBLIC_THEME || 'andyspro', // 主题， 支持 ['next','hexo',"fukasawa','medium', 'andyspro']
+  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 主题， 支持 ['next','hexo',"fukasawa','medium', 'andyspro']
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // 是否显示切换主题按钮
   LANG: 'zh-TW', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: 2020, // e.g if leave this empty, current year will be used.
